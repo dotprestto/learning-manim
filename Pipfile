@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-manim = "*"
+manim = "==0.12.0"
 
 [dev-packages]
 autopep8 = "*"
