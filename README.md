@@ -25,7 +25,17 @@ You should install all libs to avoid errors even if it's heavy.
 
 ```bash
 sudo apt install texlive texlive-latex-extra texlive-fonts-extra \
-texlive-latex-recommended texlive-science texlive-fonts-extra tipa
+texlive-latex-recommended texlive-science texlive-fonts-extra tipa \
+texlive-lang-english
+```
+
+If you're still having Tex compile problems, try
+
+```bash
+tlmgr install amsmath babel-english cbfonts-fd cm-super ctex doublestroke dvisvgm everysel \
+fontspec frcursive fundus-calligra gnu-freefont jknapltx latex-bin \
+mathastext microtype ms physics preview ragged2e relsize rsfs \
+setspace standalone tipa wasy wasysym xcolor xetex xkeyval
 ```
 
 ### Installing the lib
