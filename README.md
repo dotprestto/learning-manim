@@ -2,7 +2,7 @@
 
 This project was created to learn Manim, I'm interested in using this powerful engine in my academic projects.
 
-I am using [ManimCE](https://docs.manim.community/en/stable/index.html)
+I am using [Manim Community](https://docs.manim.community/en/stable/index.html).
 
 The tutorial I followed is from [Brian Amedee](https://www.youtube.com/channel/UCnNljeRcRb_Y7Ok_TNtgB2w) and you can find it [here](https://www.youtube.com/watch?v=KHGoFDB-raE).
 
