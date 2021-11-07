@@ -1,5 +1,7 @@
 from manim import *
 
+# from: Brian Amedee in https://www.youtube.com/watch?v=cfIQwmHqSOI
+
 
 class Paradox(Scene):
     def construct(self):
