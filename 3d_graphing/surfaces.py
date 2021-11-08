@@ -13,7 +13,7 @@ class Surfaces(ThreeDScene):
             x_range=[-2, 2]
         )
         # create a surface
-        surface = ParametricSurface(
+        surface = Surface(
             lambda u, v: axes.c2p(v*np.cos(u), v*np.sin(u), 0.5*v**2),
             u_range=[0, TAU],  # 2 * PI
             v_range=[0, 3],
